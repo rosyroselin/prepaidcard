@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'zurich_black_bt';
+  src: url('fonts/zurich_black_bt-webfont.woff2') format('woff2'),
+  url('fonts/zurich_black_bt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'zurich_black_extended_bt';
+  src: url('fonts/zurich_black_extended_bt-webfont.woff2') format('woff2'),
+  url('fonts/zurich_black_extended_bt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'zurich_bold_bt';
+  src: url('fonts/zurich_bold_bt-webfont.woff2') format('woff2'),
+  url('fonts/zurich_bold_bt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'zurich_bold_condensed_bt';
+  src: url('fonts/zurich_bold_condensed_bt-webfont.woff2') format('woff2'),
+  url('fonts/zurich_bold_condensed_bt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'zurich_bold_extended_bt';
+  src: url('fonts/zurich_bold_extended_bt-webfont.woff2') format('woff2'),
+  url('fonts/zurich_bold_extended_bt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'zurich_bt';
+  src: url('fonts/zurich_bt-webfont.woff2') format('woff2'),
+  url('fonts/zurich_bt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'zurich_condensed_bt';
+  src: url('fonts/zurich_condensed_bt-webfont.woff2') format('woff2'),
+  url('fonts/zurich_condensed_bt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}

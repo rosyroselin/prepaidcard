@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ICICI BANK - PREPAID CARD</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <meta name="keywords" content="ICICI Bank">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+    <!-- //Head -->
+    <!-- Body -->
+    <body>
+		<!--Header Start-->
+		<header class="header">
+			<div class="row top-bar">
+				<div class="col-md-12">
+					<!--LOGO-->
+					<div class="logo"><img src="images/logo.svg" /> <span>|</span> PREPAID CARD</div>
+				</div>
+			</div>
+		</header>
+		<!--Header End-->
+		<!--Main Container-->
+		<main>
+			<div class="paper-shadow">
+				<div class="form-content">
+					<h1>Documents list to be uploaded</h1>
+					<div class="top-form">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-12">
+									<label>Upload Documents</label>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="file" name="pan[]" id="pan" class="inputfile inputfile-upload"  multiple="">
+										<label for="pan" class="form-control"><span></span> <strong> Upload</strong></label>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<input type="button" class="btn" value="View" />
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!--Table Start-->
+					<!--DATA TABLE START-->
+					<div class="datatable-table-container">
+						<table id="example" class="table-striped table-bordered nowrap data-table" style="width: 100% !important">
+							<thead>
+								<tr>
+									<th width="2%">Sr. No.</th>
+									<th>Document Name</th>
+									<th width="5%">File Size</th>
+									<th width="5%">View Document</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-center">1</td>
+									<td>FileName.pdf</td>
+									<td class="text-center">1kb</td>
+									<td class="text-center"><button class="btn-white orange"><i class="field-icon fa fa-eye"></i></button></td>
+								</tr>
+								<tr>
+									<td class="text-center">2</td>
+									<td>FileName.pdf</td>
+									<td class="text-center">1kb</td>
+									<td class="text-center"><button class="btn-white orange"><i class="field-icon fa fa-eye"></i></button></td>
+								</tr>
+								<tr>
+									<td class="text-center">3</td>
+									<td>FileName.pdf</td>
+									<td class="text-center">1kb</td>
+									<td class="text-center"><button class="btn-white orange"><i class="field-icon fa fa-eye"></i></button></td>
+								</tr>
+								<tr>
+									<td class="text-center">4</td>
+									<td>FileName.pdf</td>
+									<td class="text-center">1kb</td>
+									<td class="text-center"><button class="btn-white orange"><i class="field-icon fa fa-eye"></i></button></td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<td>FileName.pdf</td>
+									<td class="text-center">1kb</td>
+									<td class="text-center"><button class="btn-white orange"><i class="field-icon fa fa-eye"></i></button></td>
+								</tr>
+								<tr>
+									<td class="text-center">6</td>
+									<td>FileName.pdf</td>
+									<td class="text-center">1kb</td>
+									<td class="text-center"><button class="btn-white orange"><i class="field-icon fa fa-eye"></i></button></td>
+								</tr>
+								<tr>
+									<td class="text-center">7</td>
+									<td>FileName.pdf</td>
+									<td class="text-center">1kb</td>
+									<td class="text-center"><button class="btn-white orange"><i class="field-icon fa fa-eye"></i></button></td>
+								</tr>
+								<tr>
+									<td class="text-center">8</td>
+									<td>FileName.pdf</td>
+									<td class="text-center">1kb</td>
+									<td class="text-center"><button class="btn-white orange"><i class="field-icon fa fa-eye"></i></button></td>
+								</tr>
+								<tr>
+									<td class="text-center">9</td>
+									<td>FileName.pdf</td>
+									<td class="text-center">1kb</td>
+									<td class="text-center"><button class="btn-white orange"><i class="field-icon fa fa-eye"></i></button></td>
+								</tr>
+								<tr>
+									<td class="text-center">10</td>
+									<td>FileName.pdf</td>
+									<td class="text-center">1kb</td>
+									<td class="text-center"><button class="btn-white orange"><i class="field-icon fa fa-eye"></i></button></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!--DATA TABLE END-->
+					<!--Table End-->
+					
+					
+					<div class="action-button text-right">
+						<input type="button" class="btn" value="Cancel" />
+						<input type="button" class="btn" value="Submit" onclick="window.location.href='esign-document.html';" />
+					</div>
+				</div>
+			</div>
+		</main>
+		<!--Main Container-->
+		<!--Footer Start-->
+		<footer class="footer">Powered by Servosys Solutions</footer>
+		<!--Footer End-->
+	</body>
+	<!--SCRIPT JS-->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/custom-file-input.js"></script>
+	<!--Responsive DataTable JS-->
+	<script type="text/javascript" src="js/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/dataTables.responsive.min.js"></script>
+	<script type="text/javascript" src="js/responsive.bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- remove this if you use Modernizr -->
+	<script>$("html").addClass("rose");(function(e,t,n){var r=e.querySelectorAll("html")[0];r.className=r.className.replace(/(^|\s)rose(\s|$)/,"$1js$2")})(document,window,0);</script>
+</html>																																																																																								
