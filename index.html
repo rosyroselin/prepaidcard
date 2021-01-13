@@ -235,7 +235,7 @@
 	$(document).ready(function() {
     if (navigator.geolocation)
     {
-        navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
+        navigator.geolocation.getCurrentPosition(successFunction);
     }
     else 
     {
@@ -250,9 +250,5 @@ function successFunction(position)
     alert('Your latitude is :'+lat+' and longitude is '+long);
 }
 
-function errorFunction(position) 
-{
-    alert('Error!');
-}
 	</script>
 </html>
