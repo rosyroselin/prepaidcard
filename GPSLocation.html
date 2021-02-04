@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ICICI BANK - PREPAID CARD</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <meta name="keywords" content="ICICI Bank">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+	</head>
+    <body>
+		<button id="find_btn">Find Me</button>
+		<div id="map"></div>
+	</body>
+	<script type="text/javascript">
+		var map;
+		function initMap() {
+			var mapCenter = new google.maps.LatLng(47.6145, -122.3418); //Google map Coordinates
+			map = new google.maps.Map($("#map")[0], {
+				center: mapCenter,
+				zoom: 8
+			});
+		}
+		
+		$("#find_btn").click(function (){
+			if ("geolocation" in navigator){
+				navigator.geolocation.getCurrentPosition(function(position){ 
+					infoWindow = new google.maps.InfoWindow({map: map});
+					var pos = {lat: position.coords.latitude, lng: position.coords.longitude};
+					infoWindow.setPosition(pos);
+					infoWindow.setContent("Found your location <br />Lat : "+position.coords.latitude+" </br>Lang :"+ position.coords.longitude);
+					map.panTo(pos);
+				});
+				}else{
+				console.log("Browser doesn't support geolocation!");
+			}
+		});
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</html>
